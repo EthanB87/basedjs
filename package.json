@@ -20,11 +20,17 @@
     "ast",
     "dsl",
     "syntax",
+    "typescript",
     "genz",
-    "typescript"
+    "meme"
   ],
-  "author": "",
+  "author": "EthanB87",
   "license": "MIT",
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/EthanB87/basedjs.git"
+  },
+  "homepage": "https://github.com/EthanB87/basedjs.git#readme",
   "dependencies": {
     "@babel/parser": "^7.28.5",
     "@babel/traverse": "^7.28.5",
