@@ -1,0 +1,43 @@
+{
+  "name": "babel-plugin-basedjs",
+  "version": "1.0.0",
+  "description": "GenZ slang syntax aliases for JavaScript and TypeScript",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "bin": {
+    "basedjs": "dist/cli.cjs"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest",
+    "test:watch": "vitest --watch"
+  },
+  "keywords": [
+    "babel",
+    "ast",
+    "dsl",
+    "syntax",
+    "genz",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/parser": "^7.28.5",
+    "@babel/traverse": "^7.28.5",
+    "@babel/types": "^7.28.5"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.28.5"
+  },
+  "devDependencies": {
+    "@types/babel__core": "^7.20.5",
+    "@types/node": "^25.0.3",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.16"
+  }
+}
