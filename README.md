@@ -20,7 +20,7 @@ Because why not.
 ## 📦 Installation
 
 ```bash
-npm install --save-dev basedjs
+npm install --save-dev babel-plugin-basedjs
 ```
 
 ## 🔧 Babel Setup
